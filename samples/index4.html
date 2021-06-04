@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Shrine (MDC Web Example App)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" sizes="192x192" href="https://material.io/static/images/simple-lp/favicons/components-192x192.png">
+  <link rel="shortcut icon" href="https://material.io/static/images/simple-lp/favicons/components-72x72.png">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="bundle-login.css">
+
+
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<body class="shrine-login">
+  <section class="header">
+    <svg class="shrine-logo" ...>
+      ...
+    </svg>
+    <h1>SHRINE</h1>
+  </section>
+
+  <form action="home.html" method="POST">
+    <label class="mdc-text-field mdc-text-field--filled username">
+        <span class="mdc-text-field__ripple"></span>
+        <input type="text" class="mdc-text-field__input" aria-labelledby="username-label" name="username" required>
+        <span class="mdc-floating-label" id="username-label">Username</span>
+        <span class="mdc-line-ripple"></span>
+      </label>
+      <label class="mdc-text-field mdc-text-field--filled password">
+        <span class="mdc-text-field__ripple"></span>
+        <input type="password" class="mdc-text-field__input" aria-labelledby="password-label" name="password" required minlength="8">
+        <span class="mdc-floating-label" id="password-label">Password</span>
+        <span class="mdc-line-ripple"></span>
+      </label>
+      <div class="button-container">
+        <button type="button" class="mdc-button cancel">
+          <div class="mdc-button__ripple"></div>
+          <span class="mdc-button__label">
+            Cancel
+          </span>
+        </button>
+        <button class="mdc-button mdc-button--raised next">
+          <div class="mdc-button__ripple"></div>
+          <span class="mdc-button__label">
+            Next
+          </span>
+        </button>
+      </div>      
+  </form>
+
+  <div class="fa-4x">
+    <!-- A icon that's rotated 90 degress and flipped horizontally -->
+    <span class="fa-rotate-90" style="display: inline-block;">
+      <i class="fas fa-snowboarding fa-flip-horizontal"></i>
+    </span>
+  
+    <!-- A icon that's flipped horizontally and rotated 90 degrees  -->
+    <span class="fa-flip-horizontal" style="display: inline-block;">
+      <i class="fas fa-snowboarding fa-rotate-90"></i>
+    </span>
+  
+    <!-- A icon that's flipped vertically and rotated 270 degress  -->
+    <span class="fa-flip-vertical" style="display: inline-block;">
+      <i class="fas fa-snowboarding fa-rotate-270"></i>
+    </span>
+  
+    <!-- A icon that's rotated 270 degress and flipped vertically -->
+    <span class="fa-rotate-270" style="display: inline-block;">
+      <i class="fas fa-snowboarding fa-flip-vertical"></i>
+    </span>
+  
+    <!-- A icon that's flipped on both axes and arbitrarily rotated 45 degress  -->
+    <span class="fa-flip-both" style="display: inline-block;">
+      <i class="fas fa-snowboarding fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+    </span>
+  
+    <!-- A icon that's arbitrarily rotated 45 degres and flipped on both axes  -->
+    <span class="fa-rotate-by" style="display: inline-block; --fa-rotate-angle: 45deg;">
+      <i class="fas fa-snowboarding fa-flip-both"></i>
+    </span>
+  </div>
+
+  <script src="bundle-login.js" async></script>
+</body>
+</html>

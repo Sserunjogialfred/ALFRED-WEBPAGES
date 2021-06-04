@@ -1,0 +1,27 @@
+@import "./common";
+
+.header {
+  text-align: center;
+}
+
+.shrine-logo {
+  width: 150px;
+  height: 150px;
+  padding-top: 80px;
+  fill: currentColor;
+}
+
+
+@import "@material/button/mdc-button";
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    margin: auto;
+  }
+  
+  .button-container button {
+    margin: 3px;
+  }
+  
