@@ -1,0 +1,262 @@
+*, body, html
+{
+margin: 0;
+padding: 0;
+}
+.Union
+{
+    border: black 8px;
+    display: flex;
+    border-style:double;
+    justify-content: space-between;
+}  
+
+
+.container1
+{
+    flex-basis: 60%;
+    background: rgb(191, 153, 138);
+    border-right: orangered solid 12px;
+	padding-top: 30px;
+}
+
+.container2
+{
+    flex-basis: 40%;
+    background-color: black;
+    color: darkcyan;
+    padding-left: 80px;
+	padding-top: 30px;
+    border: orangered;
+    
+}
+
+
+
+.set1
+{
+    font-weight:bolder;
+    color: chocolate;
+    font-weight: bolder;
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    font-style: italic;
+    margin-top: 0px;
+
+}
+
+.set2
+{
+    color: orangered;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px;
+    margin-top: 0px;
+}
+
+.set3
+{
+    color: orangered;
+    font-weight:bolder;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: none;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+.set3 h4
+{
+color: brown;
+font-size: 40px;
+font-weight: bolder 5px;
+background: rgb(13, 14, 14);
+}
+
+.set4
+{
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.span1
+{
+    color:black;
+    
+}
+
+.span2
+{
+    color: orangered;
+}
+
+#logo
+{
+    width: 300px;
+    height: 250px;
+    border-radius: 200%;
+   
+}
+
+#logo2
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 200%;
+   margin-top: 10px;
+}
+
+
+#check_password_btn
+{
+	width: 150px;
+	height: 35px;
+	color: blue ;
+	border-radius: 5px;
+	border-color:  orangered;
+	margin-left: 90px;
+	font-weight: bolder;
+}
+#Login_btn{
+	border-radius: 20px;
+	background-color: #24d6ea;
+	float: right;
+	margin-top: 0px;
+}
+
+#Login_btn2{
+	width: 80px;
+	height: 35px;
+	color: blue ;
+	border-radius: 20px;
+	border-color:  orangered ;
+	font-weight: bolder;
+}
+
+#btn{
+	background-color:  rgb(235, 123, 38);
+	width: 55%;
+	height: 40px;
+	color: black;
+	border-radius: 50px;
+	font-weight: bolder;
+    margin-left: 60px;
+}
+
+#btn-out{
+	border-color:dodgerblue ;
+    background-color: orangered;
+    width: 55%;
+    height: 40px;
+    border-radius: 30px;
+    color: orange ;
+	font-weight: bolder;
+    margin-left: 60px;
+}
+
+.input2
+{
+	width: 30%;
+	height: 35px;
+	border-top-color: black ;
+	border-left-color: black ;
+	border-bottom: orangered solid;
+	font-weight: bolder;
+	color: darkcyan;
+    padding-bottom: 7px;
+	margin-top: 0px;
+	margin-left: 0px;
+	text-align: center;
+}
+.footer-body
+{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    background: rgb(56, 25, 2);
+    padding: 0px;
+} 
+
+
+.footer-Copyright
+{
+    width: 100%;
+    height: 40px;
+    background: black;
+    color: orangered;
+    margin-bottom: 2px;
+}
+
+.Contacts 
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.Contacts2 
+{
+    font-size: 7px;
+    color: black;
+    font-weight: bolder;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    text-align: left;
+    ;
+}
+
+  
+
+.Know-more
+{
+    background: rgba(165, 42, 42, 0.193);
+    font-size: 10px;
+    font-weight: bolder;
+    align-content: center;
+    text-decoration: none;
+    margin-bottom: 0px;
+
+}
+
+.links
+{
+    margin-top: 0px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 8px;
+    border-top: black solid 2px;
+    border-bottom: orangered solid 2px;
+}
+
+.links li
+{
+    padding-right: 10px;
+
+}
+.links a
+{
+    color: orangered;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.links a:hover
+{
+    background-color: black;
+    color: orangered;
+    font-size: 20px;
+    transition: ease-in all 0.6s;
+}
